@@ -25,6 +25,10 @@ app.get("/video", (req, res) => {
     res.render("video");
 })
 
+app.get("/hase", (req, res) => {
+    res.render("hase");
+})
+
 app.listen(process.env.PORT || 5000, () => {
     console.log("server is working, bitch");
 })
